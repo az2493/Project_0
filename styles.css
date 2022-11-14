@@ -1,0 +1,61 @@
+  :root {
+    --vcolor: black;  
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    color: black;
+  }
+/* everything */
+  * {
+    box-sizing: border-box;
+  }
+  
+  .container {
+    padding: 40px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #gameboard {
+    width: 450px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+  }
+  
+  .box {
+    font-size: 150px;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: black;
+  }
+
+button {
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: purple;
+  color: white;
+  border-color: black;
+  font-size: 18px;
+  transition: 200ms transform; 
+}
+
+  
+  button:hover {
+    cursor: pointer;
+    transform: translateY(-2px);
+  }
+ 
+  
+
+  
